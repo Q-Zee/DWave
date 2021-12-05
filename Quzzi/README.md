@@ -31,7 +31,7 @@ A Contributors Guide is forthcoming.
 The initial code submission has minimal documentation. 
 Documentation is added on an ongoing basis.
 
-## Where to start
+## Where to start (Work in progress)
 
 	Problem Description (TBD)
 	Constraints and Objectives (TBD)
