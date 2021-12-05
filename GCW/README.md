@@ -44,7 +44,7 @@ The last row shows the final goal everyone is on the other side.
  Left bank  | Right Bank | Available  | Choice     | 
 ----------------------------------------------------
  W  C  G  F |            | W   C   G  |         G  | 
- W  C       | W        F |         G  |            |
+ W  C       |       G  F |         G  |            |
     ...            ...        ...          ...
             | W  C  G  F | W   C   G  |            |
 ====================================================
