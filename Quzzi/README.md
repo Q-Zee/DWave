@@ -24,7 +24,7 @@ The authors chose to target airline crew planning problems for a few reasons:
 
 The source code is made available for collaboration by interested contributors. New components are planned to be released demonstrating solutions to problems such optimal trip assignment with compliance of minimum days off patterns and activities. 
 
-Please consult the Contributors Guide for details on the projects expectations as it stands.
+A Contributors Guide is forthcoming.
 
 ## Current Status (October 2021)
 
