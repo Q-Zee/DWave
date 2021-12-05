@@ -15,7 +15,8 @@ There are two version files:
 Here are two versions of a solver to the 8 Queens problem using DWave. 
 
 The [first](https://github.com/Q-Zee/DWave/blob/main/8Queens/8Queens.py) uses QUBO and I wrote this solution in 2020 during CDL Toronto Quantum Stream 
-The second, uses the newly released CQM solver and certainly made the implementation easier over the QUBO method.
+
+The [second](https://github.com/Q-Zee/DWave/blob/main/8Queens/8queens_cqm.py), uses the newly released CQM solver and certainly made the implementation easier over the QUBO method.
 
 
 
