@@ -128,8 +128,6 @@ Ensure you assign your DWave API token below unless already configured on the se
 
 token=None # 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
-!pip install dwave-ocean-sdk
-
 import dimod
 from dimod import BinaryQuadraticModel, Binary
 from dwave.system import LeapHybridCQMSampler
