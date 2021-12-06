@@ -18,5 +18,8 @@ The [first](https://github.com/Q-Zee/DWave/blob/main/8Queens/8Queens.py) uses QU
 
 The [second](https://github.com/Q-Zee/DWave/blob/main/8Queens/8queens_cqm.py), uses the newly released CQM solver and certainly made the implementation easier over the QUBO method.
 
+## Example 3 - Solving Airline Crew Trip problems
+
+The airline crew trip problem is a recurring crew planning process (usually each month or 28 day period) most scheduled airline must solve to create Fatigue Management Regulation and Policy compliant flight duty periods for pilots and flight attendants.
 
 
