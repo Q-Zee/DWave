@@ -31,6 +31,6 @@ The airline crew trip problem is a recurring crew planning process (usually each
 
 The [prototype](https://github.com/Q-Zee/DWave/blob/main/Quzzi) proposes a QUBO solver using a Binary Quadratic Model. 
 
-With the release of the new DWave CQM solver in October 2021, there is an intent to attempt to rewrite the solver as a CQM model. As examples 1 and 2 demonstrates, implementing constraints using CQM has shown to be far easier than with BQM.
+With the release of the new DWave CQM solver in October 2021, there is an intent to rewrite the solver as a CQM model. As examples 1 and 2 demonstrates, implementing constraints using CQM has shown to be far easier than with BQM.
 
 
