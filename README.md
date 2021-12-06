@@ -1,5 +1,9 @@
 # Solvers using the DWave Quantum Annealing Computer
 
+## Introduction
+
+Before diving into the more complex solver for aviation (Example 3 below), consider examples 1 and 2 below solving small toy problems and which gives a perspective on the Quantum Annealing approach to solving optimization problems. 
+
 ## Example 1 - 🐺 🐐 🥗 Solving the Wolf-Goat-Cabbage riddle using CQM
 
 This is a nice little problem for the Quantum Annealer to solve using CQM.
