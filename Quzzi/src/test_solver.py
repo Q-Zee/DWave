@@ -26,6 +26,11 @@ from quzzi.qzanneal import routeAnneal
 from quzzi.tripModel import tripModel
 from quzzi.qzbench import bench
 
+# Change dir to correct location
+
+import os
+os.chdir('Quzzi/src')
+
 # Close plots
 
 plt.close('all')
