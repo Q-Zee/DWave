@@ -37,7 +37,8 @@ models = []
 for days in [[1]]: 
     # Initialize a model
     #ra =  routeAnneal(dataset="..\datasets\FCMar4-1.csv",homebases={"LCA":1},atypes=[],depday=days)
-    ra =  routeAnneal(dataset="..\datasets\DS2b.csv",homebases={"LCA":1},atypes=[],depday=days)
+    #ra =  routeAnneal(dataset="..\datasets\DS2b.csv",homebases={"LCA":1},atypes=[],depday=days)
+    ra =  routeAnneal(dataset="../datasets/DS2b.csv",homebases={"LCA":1},atypes=[],depday=days)
     model = tripModel().annealer(ra)
 
     model.A.FD.list_segments()
