@@ -65,20 +65,20 @@ print(len(models),"models")
 
 benchmarks = []
 for m, model in enumerate(models):
-    #B = bench(model.A,len(benchmarks))
-    #B.add("Model "+str(m+1), solvers=["hyb"], time=np.linspace(1,1,1))
-    #B.add("Model "+str(m+1), solvers=["qpu"], reads=np.linspace(1000,5000,2), chain=np.linspace(1,5,5))
-    #B.add("Model "+str(m+1), solvers=["neal"], reads=np.linspace(10,1000,25))
-    #B.add("Model "+str(m+1), solvers=["neal"], reads=np.linspace(10,2000,10))
-    #benchmarks.append(B)
 
-    #B = bench(model.A,len(benchmarks))
-    #B.add("Classical "+str(m+1), solvers=["neal"], reads=np.linspace(5000,20000,5))
-    #benchmarks.append(B)
-    
     B = bench(model.A,len(benchmarks))
-    B.add("Simulated "+str(m+1), solvers=["neal"], reads=np.linspace(1000,1000,1))
-    #B.add("Simulated "+str(m+1), solvers=["neal"], time=np.linspace(10,15,1))
+
+    # Default uses Simulated Annealing 
+
+    B.add("Simulated-BQM "+str(m+1), solvers=["neal"], reads=np.linspace(1000,1000,1))
+
+    # To use the Hybrid Quantum Solver, uncomment the line below.
+    # Note that the benchmark tool in this loop retains the best solution for any
+    # solvers used. Therefore, to ensure getting details of the Hybrid solvers regardless
+    # of the outcome, comment or remove other solvers from the benchmark
+    
+    #B.add("Quantum-BQM "+str(m+1), solvers=["hyb"], time=np.linspace(10,10,1))
+    
     benchmarks.append(B)
     
     #B.logClear()
