@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Before diving into the more complex solver for aviation, consider examples 2 and 3 below solving small toy problems and which gives a perspective on the Quantum Annealing approach to solving optimization problems. 
+Here you will find a prototype solver for the airline Crew Trip problem and other demonstration solvers. Before diving into the more complex solver for aviation, consider examples 2 and 3 below solving small toy problems and which gives a perspective on the Quantum Annealing approach to solving optimization problems. 
 
 You can load the code directly in your DWave Leap account [here](https://ide.dwavesys.io/#https://github.com/q-zee/DWave)
 If running the code on your python unstallation, some of the examples require you to set the API token in the notebook or python code. 
@@ -11,10 +11,9 @@ If running the code on your python unstallation, some of the examples require yo
 
 The airline crew trip problem is a recurring crew planning process (usually each month or 28 day period) most scheduled airline must solve to create Fatigue Management Regulation and Policy compliant flight duty periods for pilots and flight attendants.
 
-The [prototype](https://github.com/Q-Zee/DWave/blob/main/Quzzi) proposes a QUBO solver using a Binary Quadratic Model. 
+The [prototype](https://q-zee.github.io/DWave/Quzzi/) proposes a QUBO solver using a Binary Quadratic Model (BQM). 
 
-With the release of the new DWave CQM solver in October 2021, there is an intent to rewrite the solver as a CQM model. As other examples below demonstrate, implementing constraints using CQM has shown to be far easier than with BQM.
-
+With the release of the new DWave Constrained Quadratic Model (CQM) solver in October 2021, there is an intent to write a new version as a CQM model. As other examples below demonstrate, implementing constraints using CQM has shown to be far easier than with BQM.
 
 ## Example 2 - 🐺 🐐 🥗 Solving the Wolf-Goat-Cabbage riddle using CQM
 
