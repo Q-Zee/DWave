@@ -35,7 +35,7 @@ Open source published on Q-Zee.
 ### In progress
 
 #### New CQM model
-Creating a new model using the DWave CQM (Constrained Quadratic Model) to compare to the BQM. CQM allows for simpler expression of constraints, creating the quadratic equations conversions under the hood. This has the potential to reduce the number of variables (by extension, qubits) required to by streamlining variable interaction formulations that implement constraints.
+Creating a new model using the DWave CQM (Constrained Quadratic Model) to compare to the BQM. CQM allows for simpler expression of constraints, creating the quadratic equations conversions under the hood. This has the potential to reduce the number of variables (by extension, qubits) required by streamlining variable interaction formulations that implement constraints.
 
 #### Documentation
 The initial code submission has minimal documentation and is added on an ongoing basis. 
