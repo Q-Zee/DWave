@@ -26,10 +26,24 @@ The source code is made available for collaboration by interested contributors. 
 
 A Contributors Guide is forthcoming.
 
-## Current Status (October 2021)
+## Current Status (December 2021)
 
-The initial code submission has minimal documentation. 
-Documentation is added on an ongoing basis.
+### Open Source Published
+
+Open source published on Q-Zee. 
+
+### In progress
+
+#### New CQM model
+Creating a new model using the DWave CQM (Constrained Quadratic Model) to compare to the BQM. CQM allows for simpler expression of constraints, creating the quadratic equations conversions under the hood. This has the potential to reduce the number of variables (by extension, qubits) required to by streamlining variable interaction formulations that implement constraints.
+
+#### Documentation
+The initial code submission has minimal documentation and is added on an ongoing basis. 
+
+### Please Donate!
+Consider donating to support this effort and be added to the mailing list to recieve progress updates and other benefits
+
+[![Github Sponsorship](https://github.com/Q-Zee/q-zee.github.io/blob/main/img/sponsorqzee2.png)](https://github.com/sponsors/Q-Zee)
 
 ## Where to start (Work in progress)
 
