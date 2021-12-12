@@ -58,13 +58,23 @@ Example of a valid outcome:
 ----------------------------------------------------
  W  C  G  F |            | W   C   G  |         G  |
  W  C       |       G  F |         G  |            |
- W  C     F |       G    | W   C      | W          |
-    C       | W     G  F | W       G  |         G  |
-    C  G  F | W          |     C   G  |     C      |
+ W  C     F |       G    | W   C      |     C      |
+ W          |    C  G  F |     C   G  |         G  |
+ W     G  F |    C       | W       G  | W          |
        G    | W  C     F | W   C      |            |
        G  F | W  C       |         G  |         G  |
             | W  C  G  F | W   C   G  |         G  |
 ====================================================
+
+Bring the goat to the other side
+Return empty
+Bring the cabbage to the other side
+Return with the goat 
+Bring the wolf to the other side
+Return empty
+Bring the goat to the other side
+Solved
+
 ```
 
 ### Constraints
