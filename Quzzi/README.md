@@ -45,10 +45,3 @@ Consider donating to support this effort and be added to the mailing list to rec
 
 [![Github Sponsorship](https://q-zee.github.io/img/sponsorqzee2.png)](https://github.com/sponsors/Q-Zee)
 
-## Where to start (Work in progress)
-
-	Problem Description (TBD)
-	Constraints and Objectives (TBD)
-	Quadratic formulations (TBD)
-	Trip solver implementation (TBD)
-	Code Reference (TBD)
