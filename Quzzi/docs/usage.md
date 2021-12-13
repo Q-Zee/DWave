@@ -1,6 +1,8 @@
 # Crew Trip Solver Example - Brief Usage
 
-## Demonstration solver - Default settings - Simulated Annealing
+## Demo solver 
+
+### Default settings - Simulated Annealing
 
 Under Quzzi/src you will find test_solver.py. The default configuration is to use Simulated Annealing. 
 
@@ -10,7 +12,7 @@ Run as:
   python test_solver.py
 ```
 
-## Run using Quantum hybrid Solver
+### Run using Quantum Annealing
 
 Open test_solver.py and go to the end of the file to find the Benchmark loop.
 Comment out the Simulated Annealing call and uncomment the Quantum Hybrid call as so:
@@ -39,7 +41,7 @@ for m, model in enumerate(models):
 
 Save the file and run as previously shown.
 
-## Default use case - 24 Flight segments to sequence
+### Default use case - 24 Flight segments to sequence
 
 The default use case (datasets/DS2b.csv) contains 24 flight segments per day. 
 
@@ -49,7 +51,7 @@ The problem is to sequence all flight segments into legal trips.
 
 A trip must start at the crew home base (LCA) and finish with a segment that returns home. Transiting through the home base is allowed in this example.
 
-| id | fid | Flt | Dep | Arr | dDay | dTime | aTime | aDay | FT | GT |
+|row | fid | Flt | Dep | Arr | dDay | dTime | aTime | aDay | FT | GT |
 |----|-----|-----|-----|-----|------|-------|-------|------|----|----|
 | 0  | 001 | 210 | LCA |CWL |d01 |0325 |0835 |d01 |ft 0510 |gt 0000 |
 | 1  | 002 | 102 | LCA |ATH |d01 |0405 |0550 |d01 |ft 0145 |gt 0000 |
@@ -76,7 +78,7 @@ A trip must start at the crew home base (LCA) and finish with a segment that ret
 | 22 | 023 | 203 | STN |LCA |d01 |2035 |0050 |d02 |ft 0415 |gt 0000 |
 | 23 | 024 | 605 | BEY |LCA |d01 |2055 |2145 |d01 |ft 0050 |gt 0000 |
 
-## Output - Trip sequences
+### Output - Trip sequences
 
 Segments will be sequenced into "trips", each originating and terminating at the crew base (LCA in this use case). 
 
@@ -126,7 +128,7 @@ Trip
 ----------------------------------
 ```
 
-## Objective - Minimize non-flight time spent by crew members
+### Objective - Minimize non-flight time spent by crew members
 
 The objective (above and beyond basic constraint compliance for the structure of trips) is to minimize the crew duty time spent that is not directly for performing a flight. In other words 
 
