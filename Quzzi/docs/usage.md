@@ -1,6 +1,6 @@
-# Crew Trip Solver Example - Usage
+# Crew Trip Solver Example - Brief Usage
 
-## Demonstration solver - Default settings
+## Demonstration solver - Default settings - Simulated Annealing
 
 Under Quzzi/src you will find test_solver.py. The default configuration is to use Simulated Annealing. 
 
@@ -42,7 +42,12 @@ Save the file and run as previously shown.
 ## Default use case - 24 Flight segments to sequence
 
 The default use case (datasets/DS2b.csv) contains 24 flight segments per day. 
+
 Each row is a flight segment requiring a flight crew. 
+
+The problem is to sequence all flight segments into legal trips. 
+
+A trip must start at the crew home base (LCA) and finish with a segment that returns home. Transiting through the home base is allowed in this example.
 
 | id | fid | Flt | Dep | Arr | dDay | dTime | aTime | aDay | FT | GT |
 |----|-----|-----|-----|-----|------|-------|-------|------|----|----|
@@ -71,7 +76,7 @@ Each row is a flight segment requiring a flight crew.
 | 22 | 023 | 203 | STN |LCA |d01 |2035 |0050 |d02 |ft 0415 |gt 0000 |
 | 23 | 024 | 605 | BEY |LCA |d01 |2055 |2145 |d01 |ft 0050 |gt 0000 |
 
-## Trip sequences
+## Output - Trip sequences
 
 Segments will be sequenced into "trips", each originating and terminating at the crew base (LCA in this use case). 
 
@@ -121,4 +126,19 @@ Trip
 ----------------------------------
 ```
 
+## Objective - Minimize non-flight time spent by crew members
+
+The objective (above and beyond basic constraint compliance for the structure of trips) is to minimize the crew duty time spent that is not directly for performing a flight. In other words 
+
+```
+Minimize Sum (Duty Time minus Flight Time) for all trips.
+```
+
+More precisely: 
+  Report time of 60 minutes and Release time of 30 minutes for each trip
+  Connection time (ground time) between flight segments within each trip
+
+The number of resulting trips is not set ahead of time. 
+
+Note that flight time limitations per trip are not applied in this model.
 
