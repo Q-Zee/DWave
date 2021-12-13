@@ -4,6 +4,10 @@ Quzzi is a project that aims at solving certain hard schedule planning problems 
 
 The original work submitted produced a proof-of-concept, using real-world data, demonstrating that it is possible to solve airline Crew Trip (and other) problems using QUBOs thus allowing for solving them on a D-Wave Quantum Computer.
 
+## Run the demo on Leap
+
+You can run the demo by loading the code in Leap [here](https://ide.dwavesys.io/#https://github.com/q-zee/DWave) and follow the instructions [here](https://q-zee.github.io/DWave/Quzzi/docs/usage).
+
 ## Origins
 
 Quzzi started in late 2018 as an exercise to prove that the D-Wave Quantum Computer could be used to solve the Crew Trip problem, thus pioneering using Quantum Computers for real-life problems today.
