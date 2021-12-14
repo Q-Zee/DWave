@@ -1,2 +1,5 @@
 theme: jekyll-theme-slate
+remote_theme: pages-themes/slate@v0.2.0
+title: DWave models
+description: Annealing models
 google_analytics: G-DEXYV5Q2EB
