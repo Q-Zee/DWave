@@ -4,7 +4,7 @@
 
 | Content | Description |
 |---------|-------------|
-| quzzi | Library folder |
+| [quzzi](https://q-zee.github.io/DWave/Quzzi/docs/modules) | Library folder |
 | test_solver.py | Main execution module |
 
 ## Running the solver
