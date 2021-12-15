@@ -2,7 +2,7 @@
 
 | Content | Description |
 |---------|-------------|
-| Quzzi | Library folder |
+| quzzi | Library folder |
 | test_solver.py | Main execution module |
 
 
