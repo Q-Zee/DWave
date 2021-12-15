@@ -8,6 +8,10 @@ The original work submitted produced a proof-of-concept, using real-world data, 
 
 You can run the demo by loading the code in Leap [here](https://ide.dwavesys.io/#https://github.com/q-zee/DWave) and follow the instructions [here](https://q-zee.github.io/DWave/Quzzi/docs/usage).
 
+## Code Documentation
+
+The code is written in Python. Documentation start [here](https://q-zee.github.io/DWave/Quzzi/docs/).
+
 ## Origins
 
 Quzzi started in late 2018 as an exercise to prove that the D-Wave Quantum Computer could be used to solve the Crew Trip problem, thus pioneering using Quantum Computers for real-life problems today.
