@@ -15,7 +15,7 @@ The [prototype](https://q-zee.github.io/DWave/Quzzi/) proposes a QUBO solver usi
 
 With the release of the new DWave Constrained Quadratic Model (CQM) solver in October 2021, there is an intent to write a new version as a CQM model. As other examples below demonstrate, implementing constraints using CQM has shown to be far easier than with BQM.
 
-Usage example can be found [here](https://q-zee.github.io/DWave/Quzzi/docs/usage)
+Usage example can be found [here](https://q-zee.github.io/DWave/Quzzi/docs/usage).
 
 ## Example 2 - 🐺 🐐 🥗 Solving the Wolf-Goat-Cabbage riddle using CQM
 
@@ -26,6 +26,8 @@ It demonstrates how one can solve a problem by expressing the valid possible mov
 There are two version files:
 1) Jupyter Notebook. Ensure that you setup your API token where indicated before executing.
 2) Python file you can run under the GCW folder.
+
+Read details [here](https://q-zee.github.io/DWave/GCW/).
 
 ## Example 3 - ♟ Solving the 8 Queens problem ♟
 
